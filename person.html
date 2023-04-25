@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Bank</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1><span id="personTitle"></span> 銀行頁面</h1>
+    <ul class="infoArea">
+        <li>帳號 : <span class="showAccount"></span></li>
+        <li>餘額 : <span class="showAmount"></span></li>
+        <br>
+        <li>存/取款 : <span class="showChangeAmount"></span></li>
+        <li>訊息 : <span class="message"></span></li>
+    </ul>
+    
+    <form>
+        <hr>
+        <h3>存款 / 提領</h3>
+        <div class="input">
+            <label for="pwd">金額</label>
+            <input type="number" id="amount">
+        </div>
+        <button type="button" id="deposit">存款</button>
+        <button type="button" id="withdraw">取款</button>
+    </form>
+
+    
+
+    <script src="./person.js"></script>
+</body>
+</html>
